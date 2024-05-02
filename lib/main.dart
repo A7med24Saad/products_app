@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:products_app/screens/LoginView.dart';
 import 'package:products_app/screens/Update_product_View.dart';
 import 'package:products_app/screens/home_view.dart';
 
@@ -15,10 +16,11 @@ class ShoppingApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         Home_View.id: (context) => const Home_View(),
-        UpdateProductView.id: (context) => UpdateProductView()
+        UpdateProductView.id: (context) => const UpdateProductView(),
+        LoginView.id: (context) => const LoginView(),
       },
       debugShowCheckedModeBanner: false,
-      initialRoute: Home_View.id,
+      initialRoute: LoginView.id,
     );
   }
 }
