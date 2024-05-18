@@ -39,6 +39,7 @@ dependencies:
   font_awesome_flutter: ^10.7.0
   dio: ^5.4.1
   http: ^1.1.0
+  dropdown_button2: ^2.3.9
 
 dev_dependencies:
   flutter_test:

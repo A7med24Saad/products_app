@@ -116,7 +116,7 @@ class _LoginViewState extends State<LoginView> {
                   TextButton(
                       onPressed: () {
                         Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => const RegisterView(),
+                          builder: (context) => RegisterView(),
                         ));
                       },
                       child: const Text(
